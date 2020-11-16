@@ -1,4 +1,4 @@
-snippet '(:\w+:)' "match emoji strings" r
+snippet '(:[\w\-]+:)' "match emoji strings" r
 `!p
 import emoji
 snip.rv=emoji.emojize(match.group(1))
